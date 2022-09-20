@@ -1,0 +1,24 @@
+Codigos em JS HTML E CSS
+
+
+
+
+
+
+<!-- Operadores -->
+
+
+
+<!-- Aritméticos
+
+"+" - soma                   5+2 = 07
+"-" - subtração              5-2 = 03
+"*" - multiplicação          5*2 = 10
+"/" - divisão                5/2 = 2.5
+"%" - resto da divisão       5%2 = 01
+"**" - potencia              5**2 = 25
+-->
+
+<!-- Atribuição
+
+--> 
