@@ -1,5 +1,5 @@
 # Curso-Em-Video-
-&LT;html&GT; &LT;/htmlGT; = Inicio e fim do documento
+&LT;html&GT; &LT;/html&GT; = Inicio e fim do documento
 &LT;h1&GT; = título
 &LT ; = <
 <br>
