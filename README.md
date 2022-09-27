@@ -3,6 +3,6 @@
 &LT; = <
 &GT; = >
 
-<br> = quebra de linha 
-<p> = paragrafo
-<h1> = título
+&LT;br&GT; = quebra de linha 
+&LT;p&GT; = paragrafo
+&LT;h1&GT; = título
