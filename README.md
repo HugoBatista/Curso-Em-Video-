@@ -1,7 +1,8 @@
 # Curso-Em-Video-
 
-&LT; = <
-&GT; = >
+&LT ; = <
+<br>
+&GT ; = >
 
 &LT;br&GT; = quebra de linha 
 <br>
