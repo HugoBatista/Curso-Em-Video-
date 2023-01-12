@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: beige;
+        }
+        
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline ;
+            color: black;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .special{
+            background-color: darkred;
+            
+        }
+
+        .special::before{
+            content: '⇒';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgreen;
+        }
+            
+        .special::after{
+            content: '⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/HugoBatista" target="_blank">Github Rep</a></li>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://hugobatista.github.io/Era-uma-vez-uma-doenca/" target="_blank" class="special">Site web</a></li>
+    </ul>
+</body>
+</html>

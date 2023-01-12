@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover-html</title>
+    <style>
+        .hover:hover{
+            background-color: aqua;
+        }
+        div > p {
+            display: none;
+        }
+
+        div:hover p{
+            display: block;
+            color: white;
+            background-color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse por cima do texto abaixo</p>
+
+    <div class="hover">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloremque consequuntur ut placeat deleniti, modi quia sint ab neque esse vitae id. Blanditiis ut omnis hic maiores distinctio architecto qui.
+        <p>TEXTO ESCONDIDO KJAHSDJKAHSDJK</p>
+    </div>
+    <a href="index.html"><p>pag01</p></a>
+
+</body>
+</html>
